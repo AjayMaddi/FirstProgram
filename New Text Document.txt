@@ -1,0 +1,11 @@
+import org.junit.Assert;
+        import org.junit.Test;
+
+public class MulTest
+{
+    @Test
+    public void testmultiply(){
+        Assert.assertEquals(3,MulMath.multiply(1,3));
+    }
+
+}
